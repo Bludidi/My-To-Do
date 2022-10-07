@@ -1,3 +1,4 @@
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # My-To-Do
@@ -12,7 +13,13 @@
 - Technologies: GitHub 
 
 ## Live Demo (if available)
+<<<<<<< HEAD
 - No Link available 
+=======
+- No available link
+
+
+>>>>>>> 93e2ec848b94b7b627bada53c5fb5703eb79ed1c
 
 ## Getting Started
 
@@ -47,4 +54,5 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
+
 
