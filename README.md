@@ -12,9 +12,7 @@
 - Technologies: GitHub 
 
 ## Live Demo (if available)
-
-
-
+- No Link available 
 
 ## Getting Started
 
