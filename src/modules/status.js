@@ -16,3 +16,11 @@ export function add(list) {
   document.querySelector('#newTask').value = '';
   saveLocal(list);
 }
+
+export function updateIndex(list) {
+  let i = 0;
+  list.forEach((elem) => {
+    elem.index = i;
+    i += 1;
+  });
+}
