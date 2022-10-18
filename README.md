@@ -12,8 +12,8 @@
 - Frameworks: Bootstrap, Webpack 
 - Technologies: GitHub 
 
-## Live Demo (if available)
-- No available link
+## Live Demo
+### https://bludidi.github.io/My-To-Do/dist/
 
 
 
