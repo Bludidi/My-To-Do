@@ -13,7 +13,7 @@
 - Technologies: GitHub 
 
 ## Live Demo
-### https://bludidi.github.io/My-To-Do/dist/
+### [My-To-Do](https://bludidi.github.io/My-To-Do/dist/)
 
 
 
