@@ -1,11 +1,11 @@
 import * as task from './modules/status.js';
 import './style.css';
 
-let list = [
-  { description: '', isCompleted: false, index: 1 },
-  // { description: 'Set up a new project with webpack', isCompleted: false, index: 1 },
-  // { description: 'Create an index.js file', isCompleted: false, index: 2 },
-  // { description: ' over the tasks array and populate an HTML', isCompleted: false, index: 3 },
+let list = [{
+  description: '',
+  isCompleted: false,
+  index: 1,
+},
 ];
 
 const todoList = () => {
@@ -39,10 +39,10 @@ const todoList = () => {
       }
     });
     taskElement.appendChild(taskText);
-    const dragIcon = document.createElement('i');
-    dragIcon.classList = 'fas fa-ellipsis-v drag icon';
-    taskElement.appendChild(dragIcon);
-    taskElement.draggable = 'true';
+    const trashIcon = document.createElement('i');
+    trashIcon.classList = 'fas fa-trash trash icon';
+    taskElement.appendChild(trashIcon);
+    taskElement.draggable = 'false';
     document.querySelector('.todo-list').appendChild(taskElement);
   });
 };

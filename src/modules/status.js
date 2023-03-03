@@ -17,6 +17,11 @@ const add = (list) => {
   saveLocal(list);
 };
 
+const removeSelected = (list) => {
+
+saveLocal(list)
+};
+
 const updateIndex = (list) => {
   let i = 1;
   list.forEach((elem) => {
