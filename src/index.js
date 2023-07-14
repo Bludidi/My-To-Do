@@ -39,10 +39,10 @@ const todoList = () => {
       }
     });
     taskElement.appendChild(taskText);
-    const dragIcon = document.createElement('i');
-    dragIcon.classList = 'fas fa-ellipsis-v drag icon';
-    taskElement.appendChild(dragIcon);
-    taskElement.draggable = 'true';
+    // const dragIcon = document.createElement('i');
+    // dragIcon.classList = 'fas fa-ellipsis-v drag icon';
+    // taskElement.appendChild(dragIcon);
+    // taskElement.draggable = 'true';
     document.querySelector('.todo-list').appendChild(taskElement);
   });
 };
